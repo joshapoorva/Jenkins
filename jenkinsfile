@@ -5,13 +5,13 @@ stages
 stage('Build')
 {
 steps{
-echhho "Building........"
+echo "Building........"
 }
 }
 stage('Test')
 {
 steps{
-echo "Testing........"
+echho "Testing........"
 }
 }
 stage('Deploy')
